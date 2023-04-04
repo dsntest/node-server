@@ -11,7 +11,7 @@ io.on('connection', (socket) => {
   logger.addContext('sessionId', sessionId);
   logger.debug('New connection established');
   socket.on('disconnect', () => {
-    logger.info('Connection closed');
+    logger.debug('Connection closed');
   });
 });
 
