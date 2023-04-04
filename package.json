@@ -1,0 +1,24 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsntest/node-server.git"
+  },
+  "author": "lidedongsn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsntest/node-server/issues"
+  },
+  "homepage": "https://github.com/dsntest/node-server#readme",
+  "dependencies": {
+    "log4js": "^6.9.1",
+    "socketio": "^1.0.0"
+  }
+}
